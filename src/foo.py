@@ -3,7 +3,7 @@ import datetime
 my_date = datetime.date(2016, 7, 11)
 
 class GroceryItem:
-    
+
     pledge_cost = 25
     
     def __init__(self, name, price):
@@ -23,7 +23,7 @@ class GroceryItem:
         return cls(name, price)
 
     @classmethod
-    def set_pledge_cost(cls, amount):
+    def set_pledge_cost(cls, amount)
         cls.set_pledge_cost = amount
 
     @staticmethod

@@ -5,14 +5,14 @@ from money.currency import Currency
 class ProductUnit:
     
     def __init__(self, name, price):
-        self.name  = name
-        self.price = Money(price, Currency.EUR)
+        self.name   = name
+        self.price  = Money(price, Currency.EUR)
+        self.pledge = False
     
     
     def apply_pledge(self):
         """Pfand"""
-        pledge = Money('0.25', Currency.EUR)
-        self.price += pledge
+        self.pledge = True
 
     def unit_description(self):
         return '{} : {}'.format(self.name, self.price.format('de_DE'))

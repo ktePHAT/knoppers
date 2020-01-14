@@ -1,4 +1,4 @@
-from product_unit import ProductUnit
+from product import ProductUnit
 from money.money import Money
 from money.currency import Currency
 

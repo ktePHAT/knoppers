@@ -1,5 +1,5 @@
-from product_unit import ProductUnit
-from grocery_list import groceries
+from product import ProductUnit
+from groceries import groceries
 
 def run():
     unit_1 = ProductUnit('Tomatos',   '2.49')

@@ -1,5 +1,5 @@
-from product import ProductUnit
-from groceries import groceries
+from knoppers.product import ProductUnit
+from knoppers.groceries import groceries
 
 def run():
     unit_1 = ProductUnit('Tomatos',   '2.49')
@@ -12,4 +12,5 @@ def run():
     grc_shp = [unit_1, unit_2, unit_3, unit_4]
     groceries(grc_shp)
 
-run()
+if __name__ == '__main__':
+    run()

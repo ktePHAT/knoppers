@@ -1,7 +1,6 @@
 from money.money import Money
 from money.currency import Currency
 
-
 class ProductUnit:
     
     def __init__(self, name, price):

@@ -1,4 +1,4 @@
-from product import ProductUnit
+from knoppers.product import ProductUnit
 from money.money import Money
 from money.currency import Currency
 
